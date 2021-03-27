@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<title>Townsend - Darkchat</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/png" sizes="64x64" href="images/logo.png">
+
+</head>
+<body>
+<br><br><br>
+<center><img src="images/assets/logoonthesite.png" width="200" height="200"></center>
+<br><br><br>
+<center><span class="encadrement" style="color:white">This space is strictly reserved, to access it, you just have to enter the password</span></center>
+<br><br>
+<body>
+        <center><input type="password" class="is-invalid" id="inputName" ><br></center>
+        <br>
+        <center><button class="blogin"  onclick="check()">Login, and enter on the chat</button></center>
+        
+        <center><p style="color:red;" id="erreur"></p></center>
+    <script>
+    function check(){
+        var code = "Pmf652^"; 
+  var checkInput = document.getElementById("inputName");
+  var val = checkInput.value;
+  var redirectPage = "main.html"
+  if (val === code) {
+    document.location.href= redirectPage;
+  } else {
+    document.getElementById("erreur").innerHTML = "We are sincerely sorry but the password is not valid ...";
+  }
+}
+
+</script>
+
+</body>
+</html>
+<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center><p> Fake Website - Only for role play gaming - All informations from this website is not real </p></center>
+</body>
+</html>
